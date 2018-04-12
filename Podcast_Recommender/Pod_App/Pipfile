@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+
+
+[packages]
+
+flask = "*"
+numpy = "*"
+pandas = "*"
+django = "*"
+gunicorn = "*"
+django-heroku = "*"
+requests = "*"
+"boto3" = "*"
+
+
+[requires]
+
+python_version = "3.6"
